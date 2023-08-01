@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Culoare_fundal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_230sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:src="@drawable/bus_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.03"
+        android:text="Login"
+        android:textColor="@color/Culoare_text"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:background="@drawable/text"
+        android:drawableLeft="@drawable/utilizator"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="@dimen/_20sdp"
+        android:textColor="@color/Culoare_text"
+        android:textColorHint="@color/Culoare_text"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/parola"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:background="@drawable/text"
+        android:drawableLeft="@drawable/parola"
+        android:hint="Parola"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/_20sdp"
+        android:textColor="@color/Culoare_text"
+        android:textColorHint="@color/Culoare_text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/conectareBtn"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/buton"
+        android:text="LOGIN"
+        android:textColor="@color/Culoare_text"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/crearecont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Nu ai un cont? Inregistreaza-te aici!"
+        android:textColor="@color/Culoare_text"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

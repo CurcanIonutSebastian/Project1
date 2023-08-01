@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.NotificationFragment"
+    android:background="@color/Culoare_fundal">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/bus_24"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:id="@+id/myTextBox"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:hint="Apăsând pe butoanele de mai jos veți găsi informații despre rutele autobuzelor!"
+        android:gravity="center"
+        android:inputType="text|textMultiLine"
+        android:background="@drawable/text"
+        android:textStyle="bold"
+        android:textColorHint="@color/Culoare_text"
+        android:layout_below="@id/myImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp" />
+
+    <LinearLayout
+        android:layout_below="@id/myTextBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_14sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/line1Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 1" />
+
+            <Button
+                android:id="@+id/line2Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 2" />
+
+            <Button
+                android:id="@+id/line3Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 3" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/line4Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 4" />
+
+            <Button
+                android:id="@+id/line5Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 5" />
+
+            <Button
+                android:id="@+id/line6Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 6" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/line7Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 7" />
+
+            <Button
+                android:id="@+id/line8Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 8" />
+
+            <Button
+                android:id="@+id/line15Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 15" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/line17Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 17" />
+
+            <Button
+                android:id="@+id/line21Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 21" />
+
+            <Button
+                android:id="@+id/line23Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 23" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/line26Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 26" />
+
+            <Button
+                android:id="@+id/line28Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 28" />
+
+            <Button
+                android:id="@+id/line29Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 29" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/line30Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Culoare_text"
+                android:background="@drawable/text"
+                android:textStyle="bold"
+                android:text="Linia 30" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

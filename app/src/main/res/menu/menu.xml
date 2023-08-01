@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Hartă"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:id="@+id/home"
+        />
+
+    <item
+        android:title="Info"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:id="@+id/notification"
+        />
+
+    <item
+        android:title="Deconectare"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        />
+</menu>
+
+
