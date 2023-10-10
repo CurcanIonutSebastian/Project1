@@ -36,7 +36,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/parola"
+        android:id="@+id/passwordL"
         android:layout_width="@dimen/_280sdp"
         android:layout_height="48dp"
         android:layout_marginTop="@dimen/_18sdp"
