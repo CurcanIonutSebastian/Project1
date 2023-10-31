@@ -34,7 +34,7 @@
         android:paddingLeft="@dimen/_20sdp"
         android:inputType="textEmailAddress"/>
     <EditText
-        android:id="@+id/parola"
+        android:id="@+id/passwordR"
         android:layout_width="@dimen/_280sdp"
         android:layout_height="@dimen/_35sdp"
         android:hint="Parola"
@@ -47,7 +47,7 @@
         android:paddingLeft="@dimen/_20sdp"
         android:inputType="textPassword"/>
     <EditText
-        android:id="@+id/confirmaParola"
+        android:id="@+id/confirmPassword"
         android:layout_width="@dimen/_280sdp"
         android:layout_height="@dimen/_35sdp"
         android:hint="Confirma parola"
